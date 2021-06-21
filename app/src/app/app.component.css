@@ -1,12 +1,11 @@
-
 .site-container {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
-  
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
 .dashboard-container {
-    flex: 1;
+  flex: 1;
 }
 
 .villa-info {
