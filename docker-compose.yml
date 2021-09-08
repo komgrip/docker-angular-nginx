@@ -4,7 +4,7 @@ services:
   site:
     build:
       context: .
-      dockerfile: .
+      dockerfile: angular.dockerfile
     container_name: nginx
     restart: always
     ports:
