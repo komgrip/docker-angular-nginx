@@ -1,7 +1,7 @@
 FROM node:12.7-alpine AS build
 WORKDIR /app
 COPY /app ./
-RUN npm install 
+RUN npm install --no-package-lock
 COPY . .
 RUN npm run build
 
